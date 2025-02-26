@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'The Orange Byte'
 theme = 'risotto'
 
+[params.meta]
+favicon = 'favicon.ico'
+
 [params.theme]
 palette = "custom"
 
