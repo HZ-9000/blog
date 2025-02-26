@@ -1,0 +1,78 @@
+baseURL = 'https://theorangebyte.dev/'
+languageCode = 'en-us'
+title = 'The Orange Byte'
+theme = 'risotto'
+
+[params.theme]
+palette = "custom"
+
+# Sidebar: about/bio
+[params.about]
+title = "HZ-9000"
+description = "A man with the hope of doing something coolish"
+# unicode/emoji logo:
+logo = ""
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/HZ-9000"
+
+[menu]
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 10
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# For hugo >= 0.60.0, enable inline HTML
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup]
+
+# Table of contents
+# Add toc = true to content front matter to enable
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 3
+ordered = true
+
+[privacy]
+
+[privacy.vimeo]
+disabled = false
+simple = true
+
+[privacy.x]
+disabled = false
+enableDNT = true
+simple = true
+
+[privacy.instagram]
+disabled = false
+simple = true
+
+[privacy.youtube]
+disabled = false
+privacyEnhanced = true
+
+[services]
+
+[services.instagram]
+disableInlineCSS = true
+
+[services.x]
+disableInlineCSS = true
