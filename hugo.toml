@@ -12,9 +12,9 @@ palette = "custom"
 # Sidebar: about/bio
 [params.about]
 title = "HZ-9000"
-description = "A man with the hope of doing something coolish"
+description = ""
 # unicode/emoji logo:
-logo = ""
+logo = "🍊"
 
 [[params.socialLinks]]
 icon = "fa-brands fa-github"

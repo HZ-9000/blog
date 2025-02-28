@@ -9,11 +9,11 @@
     <lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
+      <title>About the Blog</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description></description>
+      <description>&lt;p&gt;I have always loved reading through blogs about different adventures into niche and cool software projects.&#xA;Some of the coolest have been on compute clusters, writing programming languages from scratch, writing game engines from scratch,&#xA;and building homelabs from the trangest pieces of hardware. However, I have always viewed these blogs as entertainment and a fun&#xA;way to share cool things, and not as a system for managing and recording knowledge.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Test</title>
