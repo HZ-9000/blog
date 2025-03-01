@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Orange Byte</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:57542/</link>
     <description>Recent content on The Orange Byte</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:57542/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description></description>
+      <title>Devlog 01: Making a Game</title>
+      <link>http://localhost:57542/post/devlogs/devlog01/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:57542/post/devlogs/devlog01/</guid>
+      <description>&lt;p&gt;The start of my journey through building a full game.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Test</title>
-      <link>http://localhost:1313/posts/test/</link>
+      <title>About the Blog</title>
+      <link>http://localhost:57542/about/</link>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/test/</guid>
-      <description>&lt;h1 id=&#34;testing&#34;&gt;Testing&lt;/h1&gt;&#xA;&lt;p&gt;In testing i have found this format to be pleasing&lt;/p&gt;</description>
+      <guid>http://localhost:57542/about/</guid>
+      <description>&lt;p&gt;I have always loved reading through blogs about different adventures into niche and cool software projects.&#xA;Some of the coolest have been on compute clusters, writing programming languages from scratch, writing game engines from scratch,&#xA;and building home labs from the strangest pieces of hardware. However, I have always viewed these blogs as entertainment and a fun&#xA;way to share cool things, and not as a system for managing and recording knowledge. With this revelation I also want to create a&#xA;space to store thoughts akin to a library, having the goal of creating a medium for organized thought. This could end&#xA;up being completely disjointed and a collection of random gibberish who&amp;rsquo;s only interpreter is the one who wrote the gibberish to start.&#xA;But with any luck I will have learned to write and communicate in a way that is beneficial to not only me but to any wandering souls&#xA;who find this island in the vast sea of the internet.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

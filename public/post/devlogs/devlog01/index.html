@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57542&amp;path=livereload" data-no-instant defer></script><title>Devlog 01: Making a Game &ndash; The Orange Byte</title>
+<meta name="description" content="&#34;A reader lives a thousand lives before he dies. The man who never reads only lives one.&#34;  George R. R. Martin">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"/>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="http://localhost:57542/css/palettes/custom.css">
+<link rel="stylesheet" href="http://localhost:57542/css/risotto.css">
+<link rel="stylesheet" href="http://localhost:57542/css/custom.css">
+
+
+<link rel="icon" href="http://localhost:57542/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:57542/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:57542/favicon-16x16.png">
+<link rel="apple-touch-icon" href="http://localhost:57542/apple-touch-icon.png">
+<link rel="manifest" href="http://localhost:57542/site.webmanifest">
+
+
+
+</head>
+
+    <body>
+        <div class="page">
+
+            <header class="page__header"><nav class="page__nav main-nav">
+    <ul>
+      <li class="nomarker"><h1 class="page__logo"><a href="http://localhost:57542/" class="page__logo-inner">The Orange Byte</a></h1></li>
+    
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:57542/about/" title="">About</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item active" href="http://localhost:57542/post/" title="Posts">Posts</a></li>
+    
+    </ul>
+</nav>
+
+</header>
+
+            <section class="page__body">
+    <header class="content__header">
+        <h1>Devlog 01: Making a Game</h1>
+    </header>
+    <div class="content__body">
+        <p>The start of my journey through building a full game.</p>
+<h2 id="introduction">Introduction</h2>
+<p>I love games, but more specifically I love the worlds, mechanics, and stories that make games. Have you ever
+played a game that you lost yourself in? Whether that was the music, the environment, maybe the challenging gameplay,
+something about it that pulled you in an 3 or 4 hours felt like 1 of pure bliss. For me that first game was Zelda
+Skyward Sword, and it was the first game I lost myself in and captivated me all the way through. And although at
+the time of my first play through I was 11 and my cousin had to help me get through some puzzles, I have sense
+played through that game countless times. And each time it is just as magical as it was the last time. I am envious of
+the brilliant devs, artists, and producers that can construct experiences like that, and that&rsquo;s why I want to attempt
+to do the same! Except probably terribly and at nowhere near the level of something like Zelda. But hey we all go to
+start somewhere.</p>
+<h2 id="ground-rules">Ground Rules</h2>
+<p>I&rsquo;ve built or helped build games in the past for various school/side projects, however this time I want to really
+engage in the full process and deliver a complete (small) game. To do this I have decided on a couple of ground rules
+to keep things manageable. First, the game is going to be simple, I do not want to get lost in the weeds of trying
+to build a leveling system, developing multiple maps, inventory systems, or anything of that complexity. Just start
+with creating a good feeling set of game mechanics and something you can sit down and play for 10 or 20 minutes on
+a bus ride to your destination. Second, somewhat hinted to in the previous rule I would like to target a mobile
+platform. This reduces the amount of inputs available to really only touch, and can also be an opportunity to
+experiment with that and find ways to optimize input. Not to mention having the ability to load my game on my
+phone and play test it wherever would be convenient for me personally. And third, possibly the most important rule,
+art comes last. I am very excited to try my hand at creating assets for this game, however that can become a deep
+rabbit hole if one is not careful. I will try to do some rough art sketches along the way to hone that skill, however in
+terms of early gameplay, it will feature a wonderful mix of different mono colored cubes. With these ground rules
+the project should stay on track and not grow in scope terribly, or at least that is the hope&hellip;.</p>
+<h2 id="the-idea">The Idea</h2>
+<p>For a small mobile game an infinite scroller seems like a good place to start. There are a lot of different ways you
+can approach them, but the one that interests me is trying to climb as high as possible. Games such as doodle jump,
+or an ancient one like ninjump, are in the vein of what I&rsquo;m hoping to go for. I would like the core mechanic to be
+centered around trying to climb using a set of grappling hooks batman style, and getting as high as possible. For the
+Environment, a set of floating pillars will act as points to grapple to on your journey up and contain different
+enemies and challenges on the way up. I don&rsquo;t necessarily have a defined art style or theme in mind, but something
+futuristic would be pretty cool! In the spirit of trying to organize and coordinate my idea, I created a GDD
+(Game Design Document) detailing all the specifics and timeline I am hoping to stick to. At some point in the future
+I will try to link that doc to this blog somehow.</p>
+<h2 id="the-goal">The Goal</h2>
+<p>Finally, what is my goal with all this? Well as I said before I want to engage in the full process of binging a world
+to life. For this first project my vision is small and achievable, just get an idea of what it takes and make some
+mistakes along the way. Get familiar with the tools, the workload, the challenges, and with any luck make something
+I&rsquo;m proud of at the end of the day. And who knows, maybe this is the first of many small steps to crack into that
+world I&rsquo;m envious of. But to sum it up in some nice clear bullet points:</p>
+<ul>
+<li>Create a Game from start to finish.</li>
+<li>Learn the tools and practices.</li>
+<li>Have fun with it!</li>
+</ul>
+    </div>
+    <footer class="content__footer"></footer>
+
+            </section>
+
+            <section class="page__aside">
+                <div class="aside__about">
+<div class="aside__about">
+    <span class="about__logo" role="img">🍊</span>&nbsp;
+    
+<h1 class="about__title">HZ-9000</h1>
+<p class="about__description">&ldquo;A reader lives a thousand lives before he dies. The man who never reads only lives one.&rdquo;  George R. R. Martin</p>
+</div>
+
+
+<ul class="aside__social-links">
+    
+    <li>
+        <a href="https://github.com/HZ-9000" rel="me" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+</ul>
+</div>
+                <hr>
+                <div class="aside__content">
+    <p>The start of my journey through building a full game.</p>
+    
+        <p>
+            By HZ-9000, 
+            2025-02-28
+        </p>
+    
+
+    
+	    <hr>
+	    On this page:
+	    <nav id="TableOfContents">
+  <ol>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#ground-rules">Ground Rules</a></li>
+    <li><a href="#the-idea">The Idea</a></li>
+    <li><a href="#the-goal">The Goal</a></li>
+  </ol>
+</nav>
+    
+
+                </div>
+            </section>
+
+            <footer class="page__footer"><p>
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+    
+    
+      
+      
+          
+            
+            
+                <br/><span class="active">$ echo $LANG<br/><b></b></span><br/>
+
+            
+          
+      
+    
+</p>
+<br /><br />
+<p class="copyright"></p>
+<p class="advertisement">Powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/joeroe/risotto">risotto</a>.</p>
+</footer>
+
+        </div>
+    </body>
+
+</html>
