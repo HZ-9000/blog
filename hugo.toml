@@ -2,6 +2,12 @@ baseURL = 'https://theorangebyte.dev/'
 languageCode = 'en-us'
 title = 'The Orange Byte'
 theme = 'risotto'
+enableInlineShortcodes = true
+
+sectionPagesMenu = "main"
+
+[params]
+noindex = false
 
 [params.meta]
 favicon = 'favicon.ico'
@@ -12,7 +18,7 @@ palette = "custom"
 # Sidebar: about/bio
 [params.about]
 title = "HZ-9000"
-description = ""
+description = "\"A reader lives a thousand lives before he dies. The man who never reads only lives one.\"  George R. R. Martin"
 # unicode/emoji logo:
 logo = "🍊"
 
@@ -27,12 +33,6 @@ url = "https://github.com/HZ-9000"
 identifier = "about"
 name = "About"
 url = "/about/"
-weight = 10
-
-[[menu.main]]
-identifier = "posts"
-name = "Posts"
-url = "/posts/"
 weight = 10
 
 [taxonomies]
